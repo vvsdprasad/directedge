@@ -2,12 +2,16 @@
   "name": "directedge",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "test:watch": "vitest --watch"
+    "test:watch": "vitest --watch",
+    "copy-404": "cp dist/index.html dist/404.html",
+    "predeploy": "npm run build && npm run copy-404",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.290.0",
@@ -18,7 +22,9 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
     "jsdom": "^22.1.0",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.4.8",
