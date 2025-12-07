@@ -24,10 +24,9 @@ jobs:
         run: npm run build
         working-directory: files
 
-      - name: Upload built artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Deploy to GitHub Pages (using PAT)
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: files/dist
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          personal_token: ${{ secrets.GH_PAGES_PAT }}
+          publish_dir: ./files/dist
+          publish_branch: gh-pages
