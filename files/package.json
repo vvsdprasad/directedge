@@ -10,7 +10,7 @@
     "test": "vitest",
     "test:watch": "vitest --watch",
     "copy-404": "cp dist/index.html dist/404.html",
-    "copy-cname": "cp CNAME dist/CNAME",
+    "copy-cname": "node scripts/copy-cname.js",
     "predeploy": "npm run build && npm run copy-404 && npm run copy-cname",
     "deploy": "gh-pages -d dist"
   },
