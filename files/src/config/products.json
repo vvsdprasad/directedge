@@ -15,12 +15,12 @@
     "id": "p1",
     "name": "Premium Canvas Tote",
     "short": "Durable, eco-friendly canvas with custom print options.",
-    "image": "/assets/packaging-mockup.webp"
+    "image": "/assets/packaging-mockup.png"
   },
   {
     "id": "p2",
     "name": "Branded Stainless Bottle",
     "short": "Double-walled, vacuum insulated bottles in multiple finishes.",
-    "image": "/assets/lifestyle-hands.webp"
+    "image": "/assets/lifestyle-hands.png"
   }
 ]
