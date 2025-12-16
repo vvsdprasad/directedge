@@ -7,7 +7,7 @@ import { Truck, Layers, Percent, Package } from "lucide-react";
   Emphasizes "Style Meets Brand Identity" and links to Catalog.
 */
 export default function Home() {
-  const productPlaceholder = "/assets/product-placeholder-1.jpg";
+  const productPlaceholder = "/assets/packaging-mockup.webp";
 
   return (
     <main>
