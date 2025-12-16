@@ -1,0 +1,136 @@
+{
+  "images": [
+    {
+      "id": "hero",
+      "recommended_filename": "files/src/assets/hero.jpg",
+      "placeholder_path": "files/src/assets/hero.svg",
+      "prompt": "Photorealistic lifestyle hero banner showing a premium branded gift setup: a matte glass perfume bottle, elegant branded tote bag, and premium box arranged on a light oak table in a bright modern studio. Soft natural window light from the left, shallow depth of field, warm neutral color palette (ivory, warm beige, muted indigo accents), realistic textures, crisp details, subtle brand embossing on the box, stylish composition with negative space on the left for text. Ultra-detailed, 50mm lens look, soft bokeh, realistic reflections.",
+      "negative_prompt": "no logos, no watermarks, no text, no people faces",
+      "aspect_ratio": "16:9",
+      "size": "2000x1200",
+      "format": "jpg/webp",
+      "alt_text": "Premium branded gift setup with perfume bottle and tote on a light oak table"
+    },
+    {
+      "id": "product-hero",
+      "recommended_filename": "files/src/assets/product-1-hero.jpg",
+      "placeholder_path": "files/src/assets/product-1-hero.svg",
+      "prompt": "Photorealistic close-up of a premium branded tote and accessories on a white background: premium canvas tote with subtle debossed logo (no real brand name), a small perfume bottle with brushed metal cap, a branded card on top. Studio lighting, soft shadows, high-detail texture on fabric and glass, clean modern composition, shallow depth of field, neutral white background for easy card cropping.",
+      "negative_prompt": "no watermarks, no text, no busy backgrounds",
+      "aspect_ratio": "4:3",
+      "size": "1600x1200",
+      "format": "jpg/webp",
+      "alt_text": "Close-up of tote and perfume bottle on white background"
+    },
+    {
+      "id": "product-thumb",
+      "recommended_filename": "files/src/assets/product-1.jpg",
+      "placeholder_path": "files/src/assets/product-1.svg",
+      "prompt": "Photorealistic product thumbnail: premium perfume bottle on a subtle gradient background (warm beige to soft gray), studio lighting, top-down slight angle, crisp highlights on glass, minimal shadow, realistic label texture, modern luxury aesthetic. Clean, centered composition for square crop.",
+      "negative_prompt": "no watermark, no text, no extraneous props",
+      "aspect_ratio": "1:1",
+      "size": "1200x1200",
+      "format": "webp/jpg",
+      "alt_text": "Premium perfume bottle on gradient background"
+    },
+    {
+      "id": "product-detail",
+      "recommended_filename": "files/src/assets/product-1-detail.jpg",
+      "placeholder_path": "files/src/assets/product-1-detail.svg",
+      "prompt": "Extreme close-up photo of glass and metal detail on a perfume bottle: brushed metal atomizer, textured glass facets, soft specular highlights, micro-scratches and reflections realistic, studio macro lens, cinematic shallow depth of field, warm color grading, high resolution.",
+      "negative_prompt": "no logos, no watermarks",
+      "aspect_ratio": "4:3",
+      "size": "2000x1500",
+      "format": "jpg",
+      "alt_text": "Close-up detail of perfume bottle glass and metal atomizer"
+    },
+    {
+      "id": "packaging-mockup",
+      "recommended_filename": "files/src/assets/packaging-mockup.jpg",
+      "placeholder_path": "files/src/assets/packaging-mockup.svg",
+      "prompt": "Photorealistic packaging mockup: matte rigid gift box with removable lid on a textured linen surface, a gold-foil debossed logo placeholder on center, ribbon slightly off-center, soft studio lighting from top-right, modern luxury styling, shadows and reflections realistic.",
+      "negative_prompt": "no real brand logos, no watermark",
+      "aspect_ratio": "4:3",
+      "size": "1800x1350",
+      "format": "jpg",
+      "alt_text": "Matte gift box packaging mockup with ribbon"
+    },
+    {
+      "id": "gifting-flatlay",
+      "recommended_filename": "files/src/assets/gifting-flatlay.jpg",
+      "placeholder_path": "files/src/assets/gifting-flatlay.svg",
+      "prompt": "Top-down flatlay of premium corporate gifts: engraved pen, branded notebook, perfume bottle, small gift box, and business card, arranged artfully on a warm wood table. Soft natural light, harmonious neutral palette, real textures, lifestyle editorial look, no people.",
+      "negative_prompt": "no logos, no text, no watermarks",
+      "aspect_ratio": "4:3",
+      "size": "1600x1200",
+      "format": "jpg/webp",
+      "alt_text": "Flatlay of corporate gifting items on wood table"
+    },
+    {
+      "id": "lifestyle-hands",
+      "recommended_filename": "files/src/assets/lifestyle-hands.jpg",
+      "placeholder_path": "files/src/assets/lifestyle-hands.svg",
+      "prompt": "Photorealistic lifestyle shot of hands opening a premium branded gift box on a wooden table: warm, candid moment, realistic skin tones, natural window light, shallow depth of field, elegant packaging visible, gentle motion blur on hands, modern editorial style.",
+      "negative_prompt": "no visible brand logos, avoid recognizable faces",
+      "aspect_ratio": "3:2",
+      "size": "1800x1200",
+      "format": "jpg",
+      "alt_text": "Hands opening a premium gift box"
+    },
+    {
+      "id": "category-corporate",
+      "recommended_filename": "files/src/assets/category-corporate.jpg",
+      "placeholder_path": "files/src/assets/category-corporate.svg",
+      "prompt": "Stylized corporate customization banner: designer workspace with sketchbook, color swatches, a sample branded tote and printed label, soft natural light, minimal modern office background, neutral palette with a pop of indigo, cinematic depth, clean composition.",
+      "negative_prompt": "no logos, no text",
+      "aspect_ratio": "16:9",
+      "size": "1600x900",
+      "format": "jpg",
+      "alt_text": "Designer workspace with swatches and sample tote"
+    },
+    {
+      "id": "empty-state",
+      "recommended_filename": "files/src/assets/empty-state.jpg",
+      "placeholder_path": "files/src/assets/empty-state.svg",
+      "prompt": "Minimal modern staged scene showing an empty product display pedestal with subtle lighting and soft shadows, neutral palette, high-end minimalism, photorealistic studio shot, inviting and calm mood.",
+      "negative_prompt": "no text, no logos, no people",
+      "aspect_ratio": "4:3",
+      "size": "1400x1050",
+      "format": "webp/jpg",
+      "alt_text": "Minimal product display pedestal in studio"
+    },
+    {
+      "id": "team-hero",
+      "recommended_filename": "files/src/assets/team-hero.jpg",
+      "placeholder_path": "files/src/assets/team-hero.svg",
+      "prompt": "Photorealistic modern office scene with a small team collaborating around a table, candid atmosphere, natural window light, diverse team but faces softly out of focus to keep anonymity, warm tones, modern interior, plants in background, editorial style.",
+      "negative_prompt": "no prominent brand logos, no text overlays",
+      "aspect_ratio": "16:9",
+      "size": "2000x1125",
+      "format": "jpg",
+      "alt_text": "Modern office scene with team collaborating"
+    },
+    {
+      "id": "og-image",
+      "recommended_filename": "files/src/assets/og-image.jpg",
+      "placeholder_path": "files/src/assets/og-image.svg",
+      "prompt": "Clean social preview image for Direct Edge Products: composition with a premium product (perfume bottle) on the right, bold empty space on the left for overlay text, warm neutral palette, modern editorial photography, high contrast and crisp details, no text baked-in.",
+      "negative_prompt": "no logos, no watermarks, no embedded text",
+      "aspect_ratio": "1.91:1",
+      "size": "1200x630",
+      "format": "jpg",
+      "alt_text": "Social preview image with product and left text space"
+    },
+    {
+      "id": "logo-mark",
+      "recommended_filename": "files/src/assets/logo-mark.svg",
+      "placeholder_path": "files/src/assets/logo-mark.svg",
+      "prompt": "Simple modern monogram mark for 'Direct Edge' — abstract DE initials combined into a minimal geometric emblem with rounded corners, single-color primary (deep indigo #3b82f6) and white background, scalable and flat, no text, suitable for favicon and stamp.",
+      "negative_prompt": "no text, no complex gradients",
+      "aspect_ratio": "1:1",
+      "size": "512x512",
+      "format": "svg/png",
+      "alt_text": "Abstract DE monogram logo mark"
+    }
+  ]
+}
